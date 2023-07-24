@@ -1,5 +1,7 @@
 global using typeRacingAPI.Models;
-using typeRacingAPI.PlayerServices;
+global using typeRacingAPI.DTO.Player;
+global using typeRacingAPI.PlayerServices;
+global using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
