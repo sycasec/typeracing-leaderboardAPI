@@ -45,7 +45,7 @@ namespace typeRacingAPI.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Players");
+                    b.ToTable("Players", (string)null);
                 });
 #pragma warning restore 612, 618
         }
