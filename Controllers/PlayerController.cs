@@ -20,6 +20,9 @@ namespace typeRacingAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<SvcResponse<IEnumerable<Player>>>> GetAllPlayers() => await _playerService.GetAllPlayers();
 
+        [HttpGet]
+        public async Task<ActionResult<SvcResponse<IEnumerable<Player>>>> GetSortedPlayers() => await _playerService.GetSortedPlayers();
+
         [HttpPost]
         public async Task<ActionResult<SvcResponse<string>>> AddPlayer(Player p)
         {

@@ -1,4 +1,5 @@
 global using typeRacingAPI.Models;
+using System.Linq;
 
 namespace typeRacingAPI.PlayerServices
 {
@@ -51,6 +52,20 @@ namespace typeRacingAPI.PlayerServices
         public async Task<SvcResponse<IEnumerable<Player>>> GetAllPlayers()
         {
             var dbPlayers = await _context.Players.ToListAsync();
+            var res = new SvcResponse<IEnumerable<Player>>
+            {
+                Data = dbPlayers,
+                Message = "200",
+            };
+            return res;
+        }
+
+        public async Task<SvcResponse<IEnumerable<Player>>> GetSortedPlayers()
+        {
+            var dbPlayers = await _context.Players
+                .OrderByDescending(player => player.Score)
+                .ToListAsync();
+
             var res = new SvcResponse<IEnumerable<Player>>
             {
                 Data = dbPlayers,

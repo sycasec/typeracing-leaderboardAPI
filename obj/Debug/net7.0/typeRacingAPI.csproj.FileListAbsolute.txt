@@ -84,3 +84,12 @@ C:/Users/kyle/projects/typeRacingAPI/bin/Debug/net7.0/Npgsql.EntityFrameworkCore
 /home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/obj/Debug/net7.0/typeRacingAPI.pdb
 /home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/obj/Debug/net7.0/typeRacingAPI.genruntimeconfig.cache
 /home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/obj/Debug/net7.0/ref/typeRacingAPI.dll
+/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/bin/Debug/net7.0/Serilog.dll
+/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/bin/Debug/net7.0/Serilog.AspNetCore.dll
+/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/bin/Debug/net7.0/Serilog.Extensions.Hosting.dll
+/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/bin/Debug/net7.0/Serilog.Extensions.Logging.dll
+/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/bin/Debug/net7.0/Serilog.Formatting.Compact.dll
+/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/bin/Debug/net7.0/Serilog.Settings.Configuration.dll
+/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/bin/Debug/net7.0/Serilog.Sinks.Console.dll
+/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/bin/Debug/net7.0/Serilog.Sinks.Debug.dll
+/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/bin/Debug/net7.0/Serilog.Sinks.File.dll
