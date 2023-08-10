@@ -1,0 +1,360 @@
+2023-08-10 08:26:40.789 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-10 08:26:40.913 +08:00 [DBG] Hosting starting
+2023-08-10 08:27:03.573 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-10 08:27:03.701 +08:00 [DBG] Hosting starting
+2023-08-10 08:27:03.778 +08:00 [INF] Now listening on: http://localhost:5033
+2023-08-10 08:27:03.779 +08:00 [DBG] Loaded hosting startup assembly typeRacingAPI
+2023-08-10 08:27:03.779 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-10 08:27:03.780 +08:00 [INF] Hosting environment: Development
+2023-08-10 08:27:03.780 +08:00 [INF] Content root path: /var/www/typeracing-leaderboardAPI
+2023-08-10 08:27:03.780 +08:00 [DBG] Hosting started
+2023-08-10 08:27:44.514 +08:00 [DBG] Connection id "0HMSP72EQA4IR" accepted.
+2023-08-10 08:27:44.515 +08:00 [DBG] Connection id "0HMSP72EQA4IR" started.
+2023-08-10 08:27:44.563 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5033/api/Player - -
+2023-08-10 08:27:44.568 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-10 08:27:44.602 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Player'
+2023-08-10 08:27:44.606 +08:00 [DBG] Endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)' with route pattern 'api/Player' is valid for the request path '/api/Player'
+2023-08-10 08:27:44.606 +08:00 [DBG] Request matched endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 08:27:44.635 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-10 08:27:44.637 +08:00 [WRN] Failed to determine the https port for redirect.
+2023-08-10 08:27:44.639 +08:00 [INF] Executing endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 08:27:44.659 +08:00 [INF] Route matched with {action = "GetAllPlayers", controller = "Player"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[typeRacingAPI.Models.SvcResponse`1[System.Collections.Generic.IEnumerable`1[typeRacingAPI.Models.Player]]]] GetAllPlayers() on controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI).
+2023-08-10 08:27:44.662 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-10 08:27:44.662 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-10 08:27:44.663 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-10 08:27:44.663 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-10 08:27:44.663 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-10 08:27:44.665 +08:00 [DBG] Executing controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 08:27:44.727 +08:00 [DBG] Executed controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 08:27:45.957 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-10 08:27:45.959 +08:00 [DBG] No information found on request to perform content negotiation.
+2023-08-10 08:27:45.959 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-10 08:27:45.959 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-10 08:27:45.961 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-10 08:27:45.961 +08:00 [INF] Executing ObjectResult, writing value of type 'typeRacingAPI.Models.SvcResponse`1[[System.Collections.Generic.IEnumerable`1[[typeRacingAPI.Models.Player, typeRacingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-10 08:27:46.040 +08:00 [INF] Executed action typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI) in 1372.375ms
+2023-08-10 08:27:46.041 +08:00 [INF] Executed endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 08:27:46.044 +08:00 [DBG] Connection id "0HMSP72EQA4IR" completed keep alive response.
+2023-08-10 08:27:46.045 +08:00 [DBG] Connection id "0HMSP72EQA4IR" received FIN.
+2023-08-10 08:27:46.047 +08:00 [DBG] Connection id "0HMSP72EQA4IR" sending FIN because: "The client closed the connection."
+2023-08-10 08:27:46.055 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5033/api/Player - - - 200 - application/json;+charset=utf-8 1495.0829ms
+2023-08-10 08:27:46.057 +08:00 [DBG] Connection id "0HMSP72EQA4IR" disconnecting.
+2023-08-10 08:27:46.060 +08:00 [DBG] Connection id "0HMSP72EQA4IR" stopped.
+2023-08-10 08:29:04.703 +08:00 [INF] Application is shutting down...
+2023-08-10 08:29:04.707 +08:00 [DBG] Hosting stopping
+2023-08-10 08:29:04.720 +08:00 [DBG] Hosting stopped
+2023-08-10 08:36:10.733 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-10 08:36:10.846 +08:00 [DBG] Hosting starting
+2023-08-10 08:36:10.882 +08:00 [DBG] No listening endpoints were configured. Binding to http://localhost:5000 by default.
+2023-08-10 08:36:10.884 +08:00 [INF] Now listening on: http://localhost:5000
+2023-08-10 08:36:10.884 +08:00 [DBG] Loaded hosting startup assembly typeRacingAPI
+2023-08-10 08:36:10.884 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-10 08:36:10.884 +08:00 [INF] Hosting environment: Production
+2023-08-10 08:36:10.884 +08:00 [INF] Content root path: /var/www/typeracing-leaderboardAPI
+2023-08-10 08:36:10.884 +08:00 [DBG] Hosting started
+2023-08-10 08:37:20.210 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-10 08:37:20.322 +08:00 [DBG] Hosting starting
+2023-08-10 08:37:20.353 +08:00 [DBG] No listening endpoints were configured. Binding to http://localhost:5000 by default.
+2023-08-10 08:37:20.355 +08:00 [INF] Now listening on: http://localhost:5000
+2023-08-10 08:37:20.355 +08:00 [DBG] Loaded hosting startup assembly typeRacingAPI
+2023-08-10 08:37:20.355 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-10 08:37:20.355 +08:00 [INF] Hosting environment: Production
+2023-08-10 08:37:20.355 +08:00 [INF] Content root path: /var/www/typeracing-leaderboardAPI
+2023-08-10 08:37:20.356 +08:00 [DBG] Hosting started
+2023-08-10 08:37:46.288 +08:00 [INF] Application is shutting down...
+2023-08-10 08:37:46.289 +08:00 [DBG] Hosting stopping
+2023-08-10 08:37:46.305 +08:00 [DBG] Hosting stopped
+2023-08-10 08:38:55.211 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-10 08:38:55.333 +08:00 [DBG] Hosting starting
+2023-08-10 08:38:55.404 +08:00 [INF] Now listening on: http://localhost:5033
+2023-08-10 08:38:55.404 +08:00 [DBG] Loaded hosting startup assembly typeRacingAPI
+2023-08-10 08:38:55.405 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-10 08:38:55.405 +08:00 [INF] Hosting environment: Development
+2023-08-10 08:38:55.406 +08:00 [INF] Content root path: /var/www/typeracing-leaderboardAPI
+2023-08-10 08:38:55.406 +08:00 [DBG] Hosting started
+2023-08-10 08:40:08.318 +08:00 [DBG] Connection id "0HMSP79CFP7P7" accepted.
+2023-08-10 08:40:08.319 +08:00 [DBG] Connection id "0HMSP79CFP7P7" started.
+2023-08-10 08:40:08.364 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5033/api/Player - -
+2023-08-10 08:40:08.368 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-10 08:40:08.402 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Player'
+2023-08-10 08:40:08.406 +08:00 [DBG] Endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)' with route pattern 'api/Player' is valid for the request path '/api/Player'
+2023-08-10 08:40:08.407 +08:00 [DBG] Request matched endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 08:40:08.436 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-10 08:40:08.437 +08:00 [WRN] Failed to determine the https port for redirect.
+2023-08-10 08:40:08.440 +08:00 [INF] Executing endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 08:40:08.459 +08:00 [INF] Route matched with {action = "GetAllPlayers", controller = "Player"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[typeRacingAPI.Models.SvcResponse`1[System.Collections.Generic.IEnumerable`1[typeRacingAPI.Models.Player]]]] GetAllPlayers() on controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI).
+2023-08-10 08:40:08.462 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-10 08:40:08.463 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-10 08:40:08.463 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-10 08:40:08.464 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-10 08:40:08.464 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-10 08:40:08.466 +08:00 [DBG] Executing controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 08:40:08.526 +08:00 [DBG] Executed controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 08:40:09.723 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-10 08:40:09.725 +08:00 [DBG] No information found on request to perform content negotiation.
+2023-08-10 08:40:09.725 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-10 08:40:09.725 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-10 08:40:09.726 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-10 08:40:09.727 +08:00 [INF] Executing ObjectResult, writing value of type 'typeRacingAPI.Models.SvcResponse`1[[System.Collections.Generic.IEnumerable`1[[typeRacingAPI.Models.Player, typeRacingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-10 08:40:09.804 +08:00 [INF] Executed action typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI) in 1335.6189ms
+2023-08-10 08:40:09.805 +08:00 [INF] Executed endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 08:40:09.808 +08:00 [DBG] Connection id "0HMSP79CFP7P7" completed keep alive response.
+2023-08-10 08:40:09.809 +08:00 [DBG] Connection id "0HMSP79CFP7P7" received FIN.
+2023-08-10 08:40:09.811 +08:00 [DBG] Connection id "0HMSP79CFP7P7" sending FIN because: "The client closed the connection."
+2023-08-10 08:40:09.817 +08:00 [DBG] Connection id "0HMSP79CFP7P7" disconnecting.
+2023-08-10 08:40:09.819 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5033/api/Player - - - 200 - application/json;+charset=utf-8 1457.8915ms
+2023-08-10 08:40:09.822 +08:00 [DBG] Connection id "0HMSP79CFP7P7" stopped.
+2023-08-10 10:15:16.783 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-10 10:15:16.924 +08:00 [DBG] Hosting starting
+2023-08-10 10:15:16.963 +08:00 [DBG] No listening endpoints were configured. Binding to http://localhost:5000 by default.
+2023-08-10 10:15:16.964 +08:00 [INF] Now listening on: http://localhost:5000
+2023-08-10 10:15:16.965 +08:00 [DBG] Loaded hosting startup assembly typeRacingAPI
+2023-08-10 10:15:16.965 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-10 10:15:16.965 +08:00 [INF] Hosting environment: Production
+2023-08-10 10:15:16.965 +08:00 [INF] Content root path: /var/www/typeracing-leaderboardAPI
+2023-08-10 10:15:16.965 +08:00 [DBG] Hosting started
+2023-08-10 10:31:14.380 +08:00 [DBG] Connection id "0HMSP97F48TAN" accepted.
+2023-08-10 10:31:14.382 +08:00 [DBG] Connection id "0HMSP97F48TAN" started.
+2023-08-10 10:31:14.455 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Player - -
+2023-08-10 10:31:14.460 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-10 10:31:14.495 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Player'
+2023-08-10 10:31:14.498 +08:00 [DBG] Endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)' with route pattern 'api/Player' is valid for the request path '/api/Player'
+2023-08-10 10:31:14.499 +08:00 [DBG] Request matched endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:31:14.506 +08:00 [WRN] Failed to determine the https port for redirect.
+2023-08-10 10:31:14.508 +08:00 [INF] Executing endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:31:14.547 +08:00 [INF] Route matched with {action = "GetAllPlayers", controller = "Player"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[typeRacingAPI.Models.SvcResponse`1[System.Collections.Generic.IEnumerable`1[typeRacingAPI.Models.Player]]]] GetAllPlayers() on controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI).
+2023-08-10 10:31:14.550 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-10 10:31:14.550 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-10 10:31:14.550 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-10 10:31:14.550 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-10 10:31:14.550 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-10 10:31:14.552 +08:00 [DBG] Executing controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 10:31:14.638 +08:00 [DBG] Executed controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 10:31:15.891 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-10 10:31:15.893 +08:00 [DBG] No information found on request to perform content negotiation.
+2023-08-10 10:31:15.893 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-10 10:31:15.893 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-10 10:31:15.894 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-10 10:31:15.895 +08:00 [INF] Executing ObjectResult, writing value of type 'typeRacingAPI.Models.SvcResponse`1[[System.Collections.Generic.IEnumerable`1[[typeRacingAPI.Models.Player, typeRacingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-10 10:31:15.976 +08:00 [INF] Executed action typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI) in 1421.5677ms
+2023-08-10 10:31:15.977 +08:00 [INF] Executed endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:31:15.978 +08:00 [DBG] Connection id "0HMSP97F48TAN" completed keep alive response.
+2023-08-10 10:31:15.980 +08:00 [DBG] Connection id "0HMSP97F48TAN" received FIN.
+2023-08-10 10:31:15.981 +08:00 [DBG] Connection id "0HMSP97F48TAN" sending FIN because: "The client closed the connection."
+2023-08-10 10:31:15.991 +08:00 [DBG] Connection id "0HMSP97F48TAN" disconnecting.
+2023-08-10 10:31:15.992 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Player - - - 200 - application/json;+charset=utf-8 1539.3023ms
+2023-08-10 10:31:15.997 +08:00 [DBG] Connection id "0HMSP97F48TAN" stopped.
+2023-08-10 10:31:34.617 +08:00 [DBG] Connection id "0HMSP97F48TAO" accepted.
+2023-08-10 10:31:34.617 +08:00 [DBG] Connection id "0HMSP97F48TAO" started.
+2023-08-10 10:31:34.625 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2023-08-10 10:31:34.625 +08:00 [DBG] No candidates found for the request path '/'
+2023-08-10 10:31:34.625 +08:00 [DBG] Request did not match any endpoints
+2023-08-10 10:31:34.627 +08:00 [DBG] Connection id "0HMSP97F48TAO" completed keep alive response.
+2023-08-10 10:31:34.627 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 2.2102ms
+2023-08-10 10:31:37.919 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Player - -
+2023-08-10 10:31:37.919 +08:00 [DBG] No candidates found for the request path '/Player'
+2023-08-10 10:31:37.919 +08:00 [DBG] Request did not match any endpoints
+2023-08-10 10:31:37.921 +08:00 [DBG] Connection id "0HMSP97F48TAO" completed keep alive response.
+2023-08-10 10:31:37.921 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Player - - - 404 0 - 2.0226ms
+2023-08-10 10:31:41.660 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Player - -
+2023-08-10 10:31:41.660 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Player'
+2023-08-10 10:31:41.660 +08:00 [DBG] Endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)' with route pattern 'api/Player' is valid for the request path '/api/Player'
+2023-08-10 10:31:41.660 +08:00 [DBG] Request matched endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:31:41.661 +08:00 [INF] Executing endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:31:41.661 +08:00 [INF] Route matched with {action = "GetAllPlayers", controller = "Player"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[typeRacingAPI.Models.SvcResponse`1[System.Collections.Generic.IEnumerable`1[typeRacingAPI.Models.Player]]]] GetAllPlayers() on controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI).
+2023-08-10 10:31:41.661 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-10 10:31:41.662 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-10 10:31:41.662 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-10 10:31:41.662 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-10 10:31:41.662 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-10 10:31:41.662 +08:00 [DBG] Executing controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 10:31:41.667 +08:00 [DBG] Executed controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 10:31:41.749 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-10 10:31:41.750 +08:00 [DBG] No information found on request to perform content negotiation.
+2023-08-10 10:31:41.750 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-10 10:31:41.750 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-10 10:31:41.750 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-10 10:31:41.751 +08:00 [INF] Executing ObjectResult, writing value of type 'typeRacingAPI.Models.SvcResponse`1[[System.Collections.Generic.IEnumerable`1[[typeRacingAPI.Models.Player, typeRacingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-10 10:31:41.751 +08:00 [INF] Executed action typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI) in 89.5936ms
+2023-08-10 10:31:41.752 +08:00 [INF] Executed endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:31:41.752 +08:00 [DBG] Connection id "0HMSP97F48TAO" completed keep alive response.
+2023-08-10 10:31:41.752 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Player - - - 200 - application/json;+charset=utf-8 92.8337ms
+2023-08-10 10:31:41.785 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2023-08-10 10:31:41.785 +08:00 [DBG] No candidates found for the request path '/favicon.ico'
+2023-08-10 10:31:41.785 +08:00 [DBG] Request did not match any endpoints
+2023-08-10 10:31:41.786 +08:00 [DBG] Connection id "0HMSP97F48TAO" completed keep alive response.
+2023-08-10 10:31:41.786 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 404 0 - 0.4470ms
+2023-08-10 10:33:52.613 +08:00 [DBG] Connection id "0HMSP97F48TAO" disconnecting.
+2023-08-10 10:33:52.613 +08:00 [DBG] Connection id "0HMSP97F48TAO" stopped.
+2023-08-10 10:33:52.615 +08:00 [DBG] Connection id "0HMSP97F48TAO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-10 10:39:18.690 +08:00 [DBG] Connection id "0HMSP97F48TAP" accepted.
+2023-08-10 10:39:18.690 +08:00 [DBG] Connection id "0HMSP97F48TAP" started.
+2023-08-10 10:39:18.691 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Player - -
+2023-08-10 10:39:18.691 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Player'
+2023-08-10 10:39:18.691 +08:00 [DBG] Endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)' with route pattern 'api/Player' is valid for the request path '/api/Player'
+2023-08-10 10:39:18.691 +08:00 [DBG] Request matched endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:39:18.691 +08:00 [INF] Executing endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:39:18.691 +08:00 [INF] Route matched with {action = "GetAllPlayers", controller = "Player"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[typeRacingAPI.Models.SvcResponse`1[System.Collections.Generic.IEnumerable`1[typeRacingAPI.Models.Player]]]] GetAllPlayers() on controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI).
+2023-08-10 10:39:18.691 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-10 10:39:18.691 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-10 10:39:18.691 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-10 10:39:18.691 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-10 10:39:18.691 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-10 10:39:18.692 +08:00 [DBG] Executing controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 10:39:18.694 +08:00 [DBG] Executed controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 10:39:18.716 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-10 10:39:18.716 +08:00 [DBG] No information found on request to perform content negotiation.
+2023-08-10 10:39:18.716 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-10 10:39:18.716 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-10 10:39:18.716 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-10 10:39:18.716 +08:00 [INF] Executing ObjectResult, writing value of type 'typeRacingAPI.Models.SvcResponse`1[[System.Collections.Generic.IEnumerable`1[[typeRacingAPI.Models.Player, typeRacingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-10 10:39:18.716 +08:00 [INF] Executed action typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI) in 24.8502ms
+2023-08-10 10:39:18.716 +08:00 [INF] Executed endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:39:18.716 +08:00 [DBG] Connection id "0HMSP97F48TAP" completed keep alive response.
+2023-08-10 10:39:18.717 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Player - - - 200 - application/json;+charset=utf-8 25.9146ms
+2023-08-10 10:39:18.717 +08:00 [DBG] Connection id "0HMSP97F48TAP" received FIN.
+2023-08-10 10:39:18.717 +08:00 [DBG] Connection id "0HMSP97F48TAP" disconnecting.
+2023-08-10 10:39:18.717 +08:00 [DBG] Connection id "0HMSP97F48TAP" sending FIN because: "The client closed the connection."
+2023-08-10 10:39:18.718 +08:00 [DBG] Connection id "0HMSP97F48TAP" stopped.
+2023-08-10 10:56:55.467 +08:00 [INF] Application is shutting down...
+2023-08-10 10:56:55.468 +08:00 [DBG] Hosting stopping
+2023-08-10 10:56:55.475 +08:00 [DBG] Hosting stopped
+2023-08-10 10:56:55.913 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-10 10:56:56.027 +08:00 [DBG] Hosting starting
+2023-08-10 10:56:56.059 +08:00 [DBG] No listening endpoints were configured. Binding to http://localhost:5000 by default.
+2023-08-10 10:56:56.061 +08:00 [INF] Now listening on: http://localhost:5000
+2023-08-10 10:56:56.061 +08:00 [DBG] Loaded hosting startup assembly typeRacingAPI
+2023-08-10 10:56:56.061 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-10 10:56:56.061 +08:00 [INF] Hosting environment: Production
+2023-08-10 10:56:56.062 +08:00 [INF] Content root path: /var/www/typeracing-leaderboardAPI
+2023-08-10 10:56:56.062 +08:00 [DBG] Hosting started
+2023-08-10 10:59:17.312 +08:00 [DBG] Connection id "0HMSP9N4M01JE" accepted.
+2023-08-10 10:59:17.313 +08:00 [DBG] Connection id "0HMSP9N4M01JE" started.
+2023-08-10 10:59:17.358 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Player - -
+2023-08-10 10:59:17.362 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-10 10:59:17.438 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Player'
+2023-08-10 10:59:17.443 +08:00 [DBG] Endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)' with route pattern 'api/Player' is valid for the request path '/api/Player'
+2023-08-10 10:59:17.443 +08:00 [DBG] Request matched endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:59:17.452 +08:00 [WRN] Failed to determine the https port for redirect.
+2023-08-10 10:59:17.455 +08:00 [INF] Executing endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:59:17.474 +08:00 [INF] Route matched with {action = "GetAllPlayers", controller = "Player"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[typeRacingAPI.Models.SvcResponse`1[System.Collections.Generic.IEnumerable`1[typeRacingAPI.Models.Player]]]] GetAllPlayers() on controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI).
+2023-08-10 10:59:17.477 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-10 10:59:17.478 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-10 10:59:17.478 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-10 10:59:17.478 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-10 10:59:17.478 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-10 10:59:17.480 +08:00 [DBG] Executing controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 10:59:17.541 +08:00 [DBG] Executed controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 10:59:18.753 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-10 10:59:18.755 +08:00 [DBG] No information found on request to perform content negotiation.
+2023-08-10 10:59:18.755 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-10 10:59:18.755 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-10 10:59:18.756 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-10 10:59:18.756 +08:00 [INF] Executing ObjectResult, writing value of type 'typeRacingAPI.Models.SvcResponse`1[[System.Collections.Generic.IEnumerable`1[[typeRacingAPI.Models.Player, typeRacingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-10 10:59:18.832 +08:00 [INF] Executed action typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI) in 1350.1964ms
+2023-08-10 10:59:18.833 +08:00 [INF] Executed endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 10:59:18.835 +08:00 [DBG] Connection id "0HMSP9N4M01JE" completed keep alive response.
+2023-08-10 10:59:18.837 +08:00 [DBG] Connection id "0HMSP9N4M01JE" received FIN.
+2023-08-10 10:59:18.837 +08:00 [DBG] Connection id "0HMSP9N4M01JE" sending FIN because: "The client closed the connection."
+2023-08-10 10:59:18.846 +08:00 [DBG] Connection id "0HMSP9N4M01JE" disconnecting.
+2023-08-10 10:59:18.848 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Player - - - 200 - application/json;+charset=utf-8 1493.0975ms
+2023-08-10 10:59:18.852 +08:00 [DBG] Connection id "0HMSP9N4M01JE" stopped.
+2023-08-10 11:03:03.672 +08:00 [DBG] Connection id "0HMSP9N4M01JF" accepted.
+2023-08-10 11:03:03.672 +08:00 [DBG] Connection id "0HMSP9N4M01JF" started.
+2023-08-10 11:03:03.680 +08:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.15/api/Player - -
+2023-08-10 11:03:03.680 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Player'
+2023-08-10 11:03:03.680 +08:00 [DBG] Endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)' with route pattern 'api/Player' is valid for the request path '/api/Player'
+2023-08-10 11:03:03.680 +08:00 [DBG] Request matched endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 11:03:03.681 +08:00 [INF] Executing endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 11:03:03.682 +08:00 [INF] Route matched with {action = "GetAllPlayers", controller = "Player"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[typeRacingAPI.Models.SvcResponse`1[System.Collections.Generic.IEnumerable`1[typeRacingAPI.Models.Player]]]] GetAllPlayers() on controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI).
+2023-08-10 11:03:03.682 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-10 11:03:03.682 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-10 11:03:03.682 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-10 11:03:03.682 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-10 11:03:03.682 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-10 11:03:03.682 +08:00 [DBG] Executing controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 11:03:03.685 +08:00 [DBG] Executed controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 11:03:03.763 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-10 11:03:03.764 +08:00 [DBG] No information found on request to perform content negotiation.
+2023-08-10 11:03:03.764 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-10 11:03:03.764 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-10 11:03:03.764 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-10 11:03:03.764 +08:00 [INF] Executing ObjectResult, writing value of type 'typeRacingAPI.Models.SvcResponse`1[[System.Collections.Generic.IEnumerable`1[[typeRacingAPI.Models.Player, typeRacingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-10 11:03:03.765 +08:00 [INF] Executed action typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI) in 83.2645ms
+2023-08-10 11:03:03.765 +08:00 [INF] Executed endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 11:03:03.766 +08:00 [DBG] Connection id "0HMSP9N4M01JF" completed keep alive response.
+2023-08-10 11:03:03.766 +08:00 [DBG] Connection id "0HMSP9N4M01JF" received FIN.
+2023-08-10 11:03:03.766 +08:00 [DBG] Connection id "0HMSP9N4M01JF" sending FIN because: "The client closed the connection."
+2023-08-10 11:03:03.766 +08:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.15/api/Player - - - 200 - application/json;+charset=utf-8 86.3292ms
+2023-08-10 11:03:03.766 +08:00 [DBG] Connection id "0HMSP9N4M01JF" disconnecting.
+2023-08-10 11:03:03.767 +08:00 [DBG] Connection id "0HMSP9N4M01JF" stopped.
+2023-08-10 13:27:18.960 +08:00 [DBG] Connection id "0HMSP9N4M01JG" accepted.
+2023-08-10 13:27:18.960 +08:00 [DBG] Connection id "0HMSP9N4M01JG" started.
+2023-08-10 13:27:18.961 +08:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.15/api/Player - -
+2023-08-10 13:27:18.961 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Player'
+2023-08-10 13:27:18.961 +08:00 [DBG] Endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)' with route pattern 'api/Player' is valid for the request path '/api/Player'
+2023-08-10 13:27:18.961 +08:00 [DBG] Request matched endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 13:27:18.962 +08:00 [INF] Executing endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 13:27:18.962 +08:00 [INF] Route matched with {action = "GetAllPlayers", controller = "Player"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[typeRacingAPI.Models.SvcResponse`1[System.Collections.Generic.IEnumerable`1[typeRacingAPI.Models.Player]]]] GetAllPlayers() on controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI).
+2023-08-10 13:27:18.962 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-10 13:27:18.962 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-10 13:27:18.962 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-10 13:27:18.962 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-10 13:27:18.962 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-10 13:27:18.962 +08:00 [DBG] Executing controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 13:27:18.964 +08:00 [DBG] Executed controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 13:27:18.986 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-10 13:27:18.986 +08:00 [DBG] No information found on request to perform content negotiation.
+2023-08-10 13:27:18.987 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-10 13:27:18.987 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-10 13:27:18.987 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-10 13:27:18.987 +08:00 [INF] Executing ObjectResult, writing value of type 'typeRacingAPI.Models.SvcResponse`1[[System.Collections.Generic.IEnumerable`1[[typeRacingAPI.Models.Player, typeRacingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-10 13:27:18.987 +08:00 [INF] Executed action typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI) in 24.5558ms
+2023-08-10 13:27:18.987 +08:00 [INF] Executed endpoint 'typeRacingAPI.Controllers.PlayerController.GetAllPlayers (typeRacingAPI)'
+2023-08-10 13:27:18.987 +08:00 [DBG] Connection id "0HMSP9N4M01JG" completed keep alive response.
+2023-08-10 13:27:18.987 +08:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.15/api/Player - - - 200 - application/json;+charset=utf-8 26.3571ms
+2023-08-10 13:27:18.987 +08:00 [DBG] Connection id "0HMSP9N4M01JG" received FIN.
+2023-08-10 13:27:18.987 +08:00 [DBG] Connection id "0HMSP9N4M01JG" sending FIN because: "The client closed the connection."
+2023-08-10 13:27:18.987 +08:00 [DBG] Connection id "0HMSP9N4M01JG" disconnecting.
+2023-08-10 13:27:18.988 +08:00 [DBG] Connection id "0HMSP9N4M01JG" stopped.
+2023-08-10 13:27:19.060 +08:00 [DBG] Connection id "0HMSP9N4M01JH" accepted.
+2023-08-10 13:27:19.060 +08:00 [DBG] Connection id "0HMSP9N4M01JH" started.
+2023-08-10 13:27:19.061 +08:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.15/favicon.ico - -
+2023-08-10 13:27:19.062 +08:00 [DBG] No candidates found for the request path '/favicon.ico'
+2023-08-10 13:27:19.063 +08:00 [DBG] Request did not match any endpoints
+2023-08-10 13:27:19.063 +08:00 [DBG] Connection id "0HMSP9N4M01JH" completed keep alive response.
+2023-08-10 13:27:19.063 +08:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.15/favicon.ico - - - 404 0 - 2.3830ms
+2023-08-10 13:27:19.064 +08:00 [DBG] Connection id "0HMSP9N4M01JH" received FIN.
+2023-08-10 13:27:19.064 +08:00 [DBG] Connection id "0HMSP9N4M01JH" sending FIN because: "The client closed the connection."
+2023-08-10 13:27:19.064 +08:00 [DBG] Connection id "0HMSP9N4M01JH" disconnecting.
+2023-08-10 13:27:19.064 +08:00 [DBG] Connection id "0HMSP9N4M01JH" stopped.
+2023-08-10 13:27:22.235 +08:00 [DBG] Connection id "0HMSP9N4M01JI" accepted.
+2023-08-10 13:27:22.236 +08:00 [DBG] Connection id "0HMSP9N4M01JI" started.
+2023-08-10 13:27:22.236 +08:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.15/api/Player/sorted - -
+2023-08-10 13:27:22.236 +08:00 [DBG] 2 candidate(s) found for the request path '/api/Player/sorted'
+2023-08-10 13:27:22.237 +08:00 [DBG] Endpoint 'typeRacingAPI.Controllers.PlayerController.GetSortedPlayers (typeRacingAPI)' with route pattern 'api/Player/sorted' is valid for the request path '/api/Player/sorted'
+2023-08-10 13:27:22.237 +08:00 [DBG] Endpoint 'typeRacingAPI.Controllers.PlayerController.GetPlayerByID (typeRacingAPI)' with route pattern 'api/Player/{player_id}' is valid for the request path '/api/Player/sorted'
+2023-08-10 13:27:22.237 +08:00 [DBG] Request matched endpoint 'typeRacingAPI.Controllers.PlayerController.GetSortedPlayers (typeRacingAPI)'
+2023-08-10 13:27:22.237 +08:00 [INF] Executing endpoint 'typeRacingAPI.Controllers.PlayerController.GetSortedPlayers (typeRacingAPI)'
+2023-08-10 13:27:22.243 +08:00 [INF] Route matched with {action = "GetSortedPlayers", controller = "Player"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[typeRacingAPI.Models.SvcResponse`1[System.Collections.Generic.IEnumerable`1[typeRacingAPI.Models.Player]]]] GetSortedPlayers() on controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI).
+2023-08-10 13:27:22.243 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-10 13:27:22.243 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-10 13:27:22.244 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-10 13:27:22.244 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-10 13:27:22.244 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-10 13:27:22.244 +08:00 [DBG] Executing controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 13:27:22.244 +08:00 [DBG] Executed controller factory for controller typeRacingAPI.Controllers.PlayerController (typeRacingAPI)
+2023-08-10 13:27:22.319 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-10 13:27:22.320 +08:00 [DBG] No information found on request to perform content negotiation.
+2023-08-10 13:27:22.320 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-10 13:27:22.320 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-10 13:27:22.320 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-10 13:27:22.320 +08:00 [INF] Executing ObjectResult, writing value of type 'typeRacingAPI.Models.SvcResponse`1[[System.Collections.Generic.IEnumerable`1[[typeRacingAPI.Models.Player, typeRacingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-10 13:27:22.320 +08:00 [INF] Executed action typeRacingAPI.Controllers.PlayerController.GetSortedPlayers (typeRacingAPI) in 76.0828ms
+2023-08-10 13:27:22.320 +08:00 [INF] Executed endpoint 'typeRacingAPI.Controllers.PlayerController.GetSortedPlayers (typeRacingAPI)'
+2023-08-10 13:27:22.320 +08:00 [DBG] Connection id "0HMSP9N4M01JI" completed keep alive response.
+2023-08-10 13:27:22.320 +08:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.15/api/Player/sorted - - - 200 - application/json;+charset=utf-8 84.1156ms
+2023-08-10 13:27:22.320 +08:00 [DBG] Connection id "0HMSP9N4M01JI" received FIN.
+2023-08-10 13:27:22.320 +08:00 [DBG] Connection id "0HMSP9N4M01JI" sending FIN because: "The client closed the connection."
+2023-08-10 13:27:22.320 +08:00 [DBG] Connection id "0HMSP9N4M01JI" disconnecting.
+2023-08-10 13:27:22.321 +08:00 [DBG] Connection id "0HMSP9N4M01JI" stopped.

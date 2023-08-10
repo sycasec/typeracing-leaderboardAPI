@@ -1998,11 +1998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/typeRacingAPI.csproj",
+      "projectUniqueName": "/var/www/typeracing-leaderboardAPI/typeRacingAPI.csproj",
       "projectName": "typeRacingAPI",
-      "projectPath": "/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/typeRacingAPI.csproj",
+      "projectPath": "/var/www/typeracing-leaderboardAPI/typeRacingAPI.csproj",
       "packagesPath": "/home/sycasec/.nuget/packages/",
-      "outputPath": "/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/obj/",
+      "outputPath": "/var/www/typeracing-leaderboardAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sycasec/.nuget/NuGet/NuGet.Config"

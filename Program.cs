@@ -3,6 +3,8 @@ global using typeRacingAPI.DTO.Player;
 global using typeRacingAPI.PlayerServices;
 global using Microsoft.EntityFrameworkCore;
 global using typeRacingAPI.Data;
+using Microsoft.AspNetCore.HttpOverrides;
+using System.Net;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -24,7 +26,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IPlayerService, PlayerService>();
 
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.KnownProxies.Add(IPAddress.Parse("10.0.0.100"));
+});
+
 var app = builder.Build();
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -38,5 +49,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapGet("/", () => "10.0.0.100");
 
 app.Run();

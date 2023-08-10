@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using typeRacingAPI.PlayerServices;
 
 namespace typeRacingAPI.Controllers
@@ -11,16 +12,18 @@ namespace typeRacingAPI.Controllers
     {
 
         private readonly IPlayerService _playerService;
+        private readonly ILogger<PlayerController> _logger;
 
-        public PlayerController(IPlayerService pSvc)
+        public PlayerController(IPlayerService pSvc, ILogger<PlayerController> logger)
         {
             _playerService = pSvc;
+            _logger = logger;
         }
 
         [HttpGet]
         public async Task<ActionResult<SvcResponse<IEnumerable<Player>>>> GetAllPlayers() => await _playerService.GetAllPlayers();
 
-        [HttpGet]
+        [HttpGet("sorted")]
         public async Task<ActionResult<SvcResponse<IEnumerable<Player>>>> GetSortedPlayers() => await _playerService.GetSortedPlayers();
 
         [HttpPost]

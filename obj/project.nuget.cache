@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b/V1lKmwLfMz0a9P7y5Fd53e3mUGzm2WZD/dZT5hJWsGptuTF6bqalXqxCzJEqf3PmCE37JWLZS5hY1p0+qrZQ==",
+  "dgSpecHash": "g5l0C8SCrLrcT64+zvfSO6Fk+MueBsMIHZaRD0PVW8+6kzpsrXSdjflmBt7YLy5IKkCfaTks3calA2riNcoVvA==",
   "success": true,
-  "projectFilePath": "/home/sycasec/Projects/csharp_dotnet/typeracing-leaderboardAPI/typeRacingAPI.csproj",
+  "projectFilePath": "/var/www/typeracing-leaderboardAPI/typeRacingAPI.csproj",
   "expectedPackageFiles": [
     "/home/sycasec/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/sycasec/.nuget/packages/microsoft.aspnetcore.openapi/7.0.8/microsoft.aspnetcore.openapi.7.0.8.nupkg.sha512",
