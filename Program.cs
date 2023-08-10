@@ -19,6 +19,18 @@ builder.Host.UseSerilog();
 
 // Add services to the container.
 
+var originRuleset = "_originRuleset";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: originRuleset, policy =>
+    {
+        policy.AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowAnyOrigin();
+    });
+});
+
 builder.Services.AddControllers();
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("typeRacingDatabase")));
@@ -45,6 +57,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(originRuleset);
 
 app.UseAuthorization();
 
