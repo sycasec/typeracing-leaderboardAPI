@@ -1,10 +1,14 @@
 # CSG Type Racing Backend API
-- literal API just to store CSG leaderboard
-- totally unecessary
+## if database is run locally, please do the following steps
+### Setup postgres
+- Download pgadmin
+- if prompted, please always use "root" as password
+- create new database "typeRacingDB"
 
-## i did an oopsie
-- i exposed a password on the previous database
-- this was not intentional
-    - fixing it would take way too many steps rather than just nuking the repo.
-    - this is why you dont just spam commit -> push!
-    - will work on docker soon
+### run server
+- clone this repository, navigate to clone directory.
+- within the directory enter the commands,
+    - `dotnet restore`
+    - `dotnet ef database update
+    - `dotnet publish configuration --Release`
+    - `dotnet run .\bin\Release\net7.0\typeRacingAPI.dll`
